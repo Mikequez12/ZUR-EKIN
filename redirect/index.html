@@ -1,5 +1,5 @@
 <script>
-  let url = decodeURI(atob(window.location.hash.splice(1)));
+  let url = decodeURI(atob(window.location.hash.slice(1)));
   if (document.cookie == 'pswrd') {
     window.location.href = url;
   } else {
