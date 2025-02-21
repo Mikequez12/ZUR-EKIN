@@ -1,0 +1,10 @@
+<script>
+  let url = decodeURI(atob(window.location.hash));
+  if (document.cookie == 'pswrd') {
+    window.location.href = url;
+  } else {
+    document.addEventListener('DOMContentLoaded',function(event) {
+      document.body.innerText = 'Not permission';
+    })
+  }
+</script>
