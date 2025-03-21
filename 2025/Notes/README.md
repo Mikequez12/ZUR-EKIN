@@ -9,6 +9,6 @@
 
 ## Quiantitative (Numeric)
   - Discrete
-      - 1, 2, 3, 4 (Integral)
+      - 1, 2, 3, 4 (Integer)
   - Continious
       - Height (1.72, 1.57, ...)
